@@ -30,10 +30,10 @@ pop_file_name <- 'PEP_2017_PEPANNRES.csv'
 ######LAUS/POPULATION TABLE PARAMETERS#################
 wfr<-c('000008')                                      #<-<-<-ENTER WORKFORCE REGION NUMBER HERE!!!
 month<-'02'                                           #<-<-<-ENTER MONTH NUMBER HERE!!!
-year<-2018                                            #<-<-<-ENTER CURENT YEAR HERE!!!                                       #<-<-<-ENTER MOST RECENT POPULATION YEAR HERE!!!
+year<-2018                                            #<-<-<-ENTER CURENT YEAR HERE!!! 
 month_name<-'February'                                #<-<-<-ENTER MONTH NAME HERE!!!
 ################DERIVED GLOBAL PARAMETERS##############
-prev_year<-year-1                                     #                            #
+prev_year<-year-1                                     # 
 month_year<-paste(month_name,year,sep = ' ')          #
 month_prev_year<-paste(month_name,prev_year,sep = ' ')#
 #######################################################
